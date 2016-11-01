@@ -1,3 +1,4 @@
+<?php include 'menu.php' ?>
 <h1>Php Array</h1>
 <?php
 $asiakkaat=array(
@@ -25,3 +26,4 @@ foreach ($asiakkaat as $rivi) {
 	}
 	?>
 </TABLE>
+<?php include 'footer.php'; ?>
